@@ -1,0 +1,67 @@
+.main{
+    flex: 1;
+    background: linear-gradient(to right, rgb(138, 196, 250), rgb(133, 247, 133));
+    height: calc(100vh - 70px); /* Adjust height to fit the viewport */
+    overflow-y: auto; /* Allow scrolling if content overflows */
+    
+}
+#mainview {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: flex-start; /* Align the items to the top of the container */
+    flex-wrap: wrap; /* Allow the items to wrap if needed */
+    width: 100%; /* Ensure the container takes the full width */
+}
+
+.view {
+    padding-bottom:30px;
+   text-align: center;
+   width: 100%;
+}
+.view h2 {
+    text-align: left;
+    padding-top: 25px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+table {
+    background-color: white;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    color: #333;
+}
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+.view span a{
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    transition: box-shadow 0.3s ease;
+
+}
+.view span{
+   padding: 10px;
+   background: linear-gradient(to bottom, rgb(24, 46, 105), rgb(56, 82, 196));
+   border-radius: 8px;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.view span:hover {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Deeper shadow on hover */
+}
+.view-btn{
+    background-color: #0460ac;
+    padding: 5px 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.view-btn:hover {
+    background-color: #098bf5;
+}

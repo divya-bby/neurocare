@@ -1,0 +1,50 @@
+.main-content {
+    flex-grow: 1;
+   
+}
+.main-content h2 {
+    padding: 20px;
+}
+
+.dashboard-overview {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 170px;
+    background: linear-gradient(to right, rgb(138, 196, 250), rgb(133, 247, 133));
+    height: calc(100vh - 137px);
+}
+
+
+.stat-card {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+    height: 30vh;
+    margin: 0 15px;
+}
+
+.stat-card h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.stat-card a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 8px;
+    background: linear-gradient(to right, rgb(24, 46, 105), rgb(56, 82, 196));
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.stat-card a:hover {
+    background: linear-gradient(to left, rgb(24, 46, 105), rgb(56, 82, 196));
+}

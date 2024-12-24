@@ -1,0 +1,94 @@
+#body {
+    background: linear-gradient(to right, rgb(138, 196, 250), rgb(133, 247, 133));
+    display: flex;
+    justify-content: center; /* display flex garesi tyo flex ko content lai centre ma justify gareko*/
+    align-items: center; /* mathy ko le top ko  bich ma aauxa, yele box vari ko bich ma aauxa*/
+    
+    padding-top:130px;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.login-box {
+    
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 10px 5px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 450px;
+}
+label {
+    margin-bottom: 5px;
+    display: block;
+}
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(196, 193, 193);
+    border-radius: 4px;
+    font-size: 14px;
+}
+input:focus {
+    outline: none; /* focus huda aafai aauni black hatxa*/
+    border-color: rgb(11, 155, 11); 
+}
+input::placeholder {
+    font-size: 12px;
+    color: rgb(187, 183, 183);
+}
+button {
+    padding: 8px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(37, 214, 61) ;
+    }
+button:hover {
+    opacity: 0.9;
+}
+.register-button {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+}
+button:active {
+    transform: scale(0.98);
+}
+.login {
+    text-align: center;
+    margin-top: 15px;
+}
+.login a,#check a {
+    text-decoration: none;
+    color: rgb(90, 32, 226) ;
+}
+.login a:hover,#check a:hover {
+    text-decoration: underline;
+}
+.gender {
+    display: flex;
+    gap: 10px; /* Adjust space between the radio buttons */
+    align-items: center; /* Align items vertically in the middle */
+}
+
+/* Fix vertical alignment of the radio buttons */
+.gender input[type="radio"] {
+    vertical-align: middle; /* Align the radio buttons with the text */
+    margin: 0; /* Remove any extra margin around the radio button */
+    padding: 0; /* Remove padding from the radio button */
+}
+
+/* Fix the spacing between the radio button and label */
+.gender label {
+    margin: 0; /* Remove default margin from the label */
+    padding-left: 5px; /* Add small left padding if needed */
+    vertical-align: middle; /* Align label text with the radio button */
+}
+input[type="checkbox"]{
+    width:auto;
+}

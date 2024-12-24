@@ -1,0 +1,93 @@
+.main-content {
+    flex: 1;
+    background: linear-gradient(to right, rgb(138, 196, 250), rgb(133, 247, 133));
+    height: calc(100vh - 70px); /* Adjust height to fit the viewport */
+    overflow-y: auto; /* Allow scrolling if content overflows */
+}
+
+.overview{
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;
+}
+
+.form-section,.assessment-form {
+    text-align: right;
+    margin:30px;
+    background-color: #e0dfdf;
+   padding: 20px 80px;
+   border-radius: 8px; /* Rounded corners */
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.form-section h2, .section-title{
+    color: #2a4d69;
+    margin: 10px;
+    margin-bottom: 20px;
+    text-align: right;
+}
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+label {
+    width: 200px;
+    margin-right: 100px;
+    text-align: right;
+}
+select, input[type="text"], input[type="date"] {
+    width: 250px;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.assessment-form textarea{
+    width: 350px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+    height: 150px;
+    margin-top: 5px;
+}
+button {
+    background-color:  rgb(28, 177, 48);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: rgb(37, 214, 61);
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+.assessment-form h2{
+    text-align: center;
+    color: #706f6f;
+}
+
+.form-group1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.section-title{
+    font-weight: bold;
+    font-size: 19px;
+    margin-top: 40px;
+}
+textarea {
+    width: 100%;
+    padding: 8px;
+    height: 80px;
+    margin-top: 5px;
+}
+

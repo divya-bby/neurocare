@@ -1,0 +1,82 @@
+.main-content {
+    flex: 1;
+    background: linear-gradient(to right, rgb(138, 196, 250), rgb(133, 247, 133));
+    height: calc(100vh - 70px); /* Adjust height to fit the viewport */
+    overflow-y: auto; /* Allow scrolling if content overflows */
+    
+}
+
+.overview{
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;
+}
+.form-container {
+    background: white; /* White background for the form */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 70%;
+    margin-top: 50px;
+    
+}
+.form-container h2{
+    padding: 10px;
+}
+.form-container label {
+    display: block; /* Make labels block elements */
+    margin-bottom: 5px; /* Space between label and input */
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="number"],
+.form-container input[type="date"],
+.form-container input[type="time"],
+.form-container textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(196, 193, 193);
+    border-radius: 4px;
+    font-size: 14px;
+   
+}
+.form-container input:focus {
+    outline: none; /* focus huda aafai aauni black hatxa*/
+    border-color: rgb(11, 158, 11); 
+}
+
+.form-container input[type="radio"] {
+    
+    vertical-align: middle; /* Align the radio buttons with the text */
+    margin: 0; /* Remove any extra margin around the radio button */
+    padding: 0;
+}
+
+.gender-group {
+    margin-bottom: 15px; /* Space below gender group */
+    display: flex;
+    gap: 10px; /* Adjust space between the radio buttons */
+    align-items: center; /* Align items vertically in the middle */
+
+}
+
+.submit-btn {
+    padding: 8px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(37, 214, 61) ;
+    font-size: 16px; /* Font size */
+}
+
+.submit-btn:hover {
+    opacity: 0.9;
+}
+.submit-btn:active {
+    transform: scale(0.98);
+}

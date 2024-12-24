@@ -1,0 +1,75 @@
+#body {
+    padding-top: 100px;
+    background: linear-gradient(to right, rgb(138, 196, 250), rgb(133, 247, 133));
+    display: flex;
+    justify-content: center; /* display flex garesi tyo flex ko content lai centre ma justify gareko*/
+    align-items: center; /* mathy ko le top ko  bich ma aauxa, yele box vari ko bich ma aauxa*/
+    height: 88.25vh;
+}
+.login-box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 10px 5px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 450px;
+}
+label {
+    margin-top: 25px;
+    margin-bottom: 5px;
+    display: block;
+}
+input {
+    width: 100%;
+    padding: 8px;
+    
+    border: 1px solid rgb(196, 193, 193);
+    border-radius: 4px;
+    font-size: 14px;
+}
+input:focus {
+    outline: none; /* focus huda aafai aauni black hatxa*/
+    border-color: rgb(11, 155, 11); 
+}
+input::placeholder {
+    font-size: 12px;
+    color: rgb(187, 183, 183);
+}
+#fp{
+    color: rgb(90, 32, 226);
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+#fp:hover {
+    text-decoration: underline;
+}
+button {
+    padding: 8px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(37, 214, 61) ;
+    }
+
+.login-button {
+    justify-content: center;
+    margin-bottom: 15px;
+}
+button:active {
+    transform: scale(0.98);
+}
+.register {
+    text-align: center;
+    margin-top: 15px;
+}
+.register a {
+    text-decoration: none;
+    color:rgb(90, 32, 226) ;
+}
+.register a:hover {
+    text-decoration: underline;
+}

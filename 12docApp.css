@@ -1,0 +1,60 @@
+.main-content {
+    flex: 1;
+    background: linear-gradient(to right, rgb(138, 196, 250), rgb(133, 247, 133));
+    height: calc(100vh - 70px); /* Adjust height to fit the viewport */
+    overflow-y: auto; /* Allow scrolling if content overflows */
+    
+}
+
+.overview{
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;
+}
+.main-content h2{
+    padding: 20px;
+    background-color: white;
+}
+
+table {
+    width: 100%;
+    margin-top: 100px;
+    border-collapse: collapse;
+    background-color: white;
+}
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+.confirm-btn, .cancel-btn, .edit-btn, .view-btn {
+    padding: 5px 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.cancel-btn{
+    background-color: #da0404;
+}
+.cancel-btn:hover {
+    background-color: #f50909;
+}
+.edit-btn, .confirm-btn{
+    background-color: #05aa05;
+}
+.edit-btn:hover, .confirm-btn:hover {
+    background-color: #07e625;
+}
+.view-btn{
+    background-color: #0460ac;
+}
+.view-btn:hover {
+    background-color: #098bf5;
+}
