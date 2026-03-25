@@ -1,13 +1,13 @@
 .main-content {
     flex: 1;
     background: linear-gradient(to right, rgb(138, 196, 250), rgb(133, 247, 133));
-    height: calc(100vh - 70px); /* Adjust height to fit the viewport */
-    overflow-y: auto; /* Allow scrolling if content overflows */
+    height: calc(100vh - 70px); 
+    overflow-y: auto; 
 }
 
 .overview{
     display: flex;
-    justify-content: center; /* Centers horizontally */
+    justify-content: center; 
     align-items: center;
 }
 
@@ -16,8 +16,8 @@
     margin:30px;
     background-color: #e0dfdf;
    padding: 20px 80px;
-   border-radius: 8px; /* Rounded corners */
-   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+   border-radius: 8px; 
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
 }
 
 .form-section h2, .section-title{
