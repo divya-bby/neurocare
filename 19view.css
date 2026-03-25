@@ -1,16 +1,16 @@
 .main{
     flex: 1;
     background: linear-gradient(to right, rgb(138, 196, 250), rgb(133, 247, 133));
-    height: calc(100vh - 70px); /* Adjust height to fit the viewport */
-    overflow-y: auto; /* Allow scrolling if content overflows */
+    height: calc(100vh - 70px); 
+    overflow-y: auto; 
     
 }
 #mainview {
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: flex-start; /* Align the items to the top of the container */
-    flex-wrap: wrap; /* Allow the items to wrap if needed */
-    width: 100%; /* Ensure the container takes the full width */
+    justify-content: center; 
+    align-items: flex-start; 
+    flex-wrap: wrap; 
+    width: 100%; 
 }
 
 .view {
@@ -51,7 +51,7 @@ table th, table td {
 }
 
 .view span:hover {
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Deeper shadow on hover */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); 
 }
 .view-btn{
     background-color: #0460ac;
