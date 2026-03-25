@@ -72,22 +72,22 @@ button:active {
 }
 .gender {
     display: flex;
-    gap: 10px; /* Adjust space between the radio buttons */
-    align-items: center; /* Align items vertically in the middle */
+    gap: 10px; 
+    align-items: center; 
 }
 
-/* Fix vertical alignment of the radio buttons */
+
 .gender input[type="radio"] {
-    vertical-align: middle; /* Align the radio buttons with the text */
-    margin: 0; /* Remove any extra margin around the radio button */
-    padding: 0; /* Remove padding from the radio button */
+    vertical-align: middle; 
+    margin: 0; 
+    padding: 0; 
 }
 
-/* Fix the spacing between the radio button and label */
+
 .gender label {
-    margin: 0; /* Remove default margin from the label */
-    padding-left: 5px; /* Add small left padding if needed */
-    vertical-align: middle; /* Align label text with the radio button */
+    margin: 0; 
+    padding-left: 5px; 
+    vertical-align: middle; 
 }
 input[type="checkbox"]{
     width:auto;
