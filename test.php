@@ -8,8 +8,8 @@
        .main-content {
     flex: 1;
     background: linear-gradient(to right, rgb(116, 182, 245), rgb(133, 248, 133));
-    height: calc(100vh - 70px); /* Adjust height to fit the viewport */
-    overflow-y: auto; /* Allow scrolling if content overflows */
+    height: calc(100vh - 70px); 
+    overflow-y: auto; 
 }
 
 .overview{
